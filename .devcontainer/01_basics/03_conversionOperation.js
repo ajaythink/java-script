@@ -19,4 +19,9 @@ let valueInNumber2 = Number( score2)
 console.log(valueInNumber2)
 console.log(typeof valueInNumber2)
 
+//boolean
+let booleanLoged = "Ajay"
+let booleanIsLogedIn = Boolean(booleanLoged)
+console.log(typeof booleanIsLogedIn)
+
 
