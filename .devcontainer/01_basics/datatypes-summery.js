@@ -31,3 +31,26 @@ console.log(typeof heros);
 //ecma website 
 //https://262.ecma-international.org/5.1/#sec-11.4.3
 // video will be 10 start 
+
+//24/12/2023
+//**************************************************************** */
+// Memory management
+//Stace(Primitive) , Heap Memory(Non-Primitive)
+// Stack: When we declear any variable that we taking a copy only.
+//Heap: Original Value reference. When any modification in any variable then original value it will be change.
+
+let myYouTube = "CodewithAjay"
+let anotherName = myYouTube;
+anotherName = "NewName0";
+console.log(anotherName);
+
+let userOne={
+    email: "user@gmail.com",
+    upi:"user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "ajay@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email);
