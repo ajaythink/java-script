@@ -64,9 +64,5 @@ JsUser1.greetingTwo = function(){
     console.log("Hello JS user",`${this.location}`);        //Same work perform
 }
 console.log(JsUser1.greetingTwo())         //Hello JS user  Bhopal
-170 retrun 24 24
-130 going 
-26  
-26
 
-300 
+
