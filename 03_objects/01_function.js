@@ -100,4 +100,34 @@ function loginUserMessage(username = "Ajay"){       // when username will be bla
     }
     return `${username} just logged in`
 }
-console.log(loginUserMessage("Anirudh"))             //Anirudh just logged in
+// console.log(loginUserMessage("Anirudh"))             //Anirudh just logged in
+
+// video number 20 chai aur code
+
+// function calculateCartPrice(num1){
+//     return num1
+// }
+// console.log(calculateCartPrice(5));                 // 5 
+
+// function calculateCartPrice(num1){
+//     return num1
+// }
+// console.log(calculateCartPrice(22, 300, 400)); //Item price 22, 300, 400
+//Output 22,           but rest of the prince not printed 300, 400
+
+// Passing the multiple value in function
+//On the above issue has conter with spread operator, 
+// function calculateCartPrice(...num1){       //rest operator 
+//     return num1
+// }
+// console.log(calculateCartPrice(22, 300, 400))  //[ 22, 300, 400 ]
+
+
+function calculateCartPrice(val1, val2, ...num1){       //rest operator 
+    return num1
+}
+console.log(calculateCartPrice(22, 300, 500, 400))  //[ 500, 400 ]
+// in this function 22, 300, value has taken "val1, val2 " variable but rest of the value has taken by num1 ( rest operator)
+
+
+
