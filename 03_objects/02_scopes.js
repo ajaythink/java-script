@@ -8,6 +8,7 @@ if(true){
     var c = 30      //classic variable
     d = 40
 }
+// var avoid to used it?
 var c = 4000
 // end block scope
 // console.log(a)   //ReferenceError: a is not defined
