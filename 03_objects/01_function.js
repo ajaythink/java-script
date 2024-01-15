@@ -129,5 +129,28 @@ function calculateCartPrice(val1, val2, ...num1){       //rest operator
 console.log(calculateCartPrice(22, 300, 500, 400))  //[ 500, 400 ]
 // in this function 22, 300, value has taken "val1, val2 " variable but rest of the value has taken by num1 ( rest operator)
 
+// 12/01/2024
+function calculateCartPrice1(val1, val2, ...num1){
+    return num1;
+}
+console.log(calculateCartPrice1(234));              //[]
 
+//user is object, Object pass into the function
+const user = {
+    username: "Ajay",
+    price: 199
+}
+function handleObject(anyObject){
+    console.log(`Username is ${anyObject.username} and price is ${anyObject.prices}`);
+}
+handleObject(user)      //user is function
 
+//Array can be pass inside function
+const myNewArray = [200, 400, 100, 600]
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+console.log(returnSecondValue(myNewArray))      //400
+
+// function Scope, Lesical Scope
+ 
