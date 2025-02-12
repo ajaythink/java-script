@@ -153,4 +153,4 @@ function returnSecondValue(getArray){
 console.log(returnSecondValue(myNewArray))      //400
 
 // function Scope, Lesical Scope
- 
+
