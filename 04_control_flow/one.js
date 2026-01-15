@@ -15,4 +15,4 @@ if(2 == "2"){
 const balance = 1000;
 if(balance > 500) console.log("testing okey")
 
-if(balance > 500) console.log("testing okey"),console.log("2nd texting okey")
+if(balance > 500) console.log("testing okey"), console.log("2nd texting okey") 
