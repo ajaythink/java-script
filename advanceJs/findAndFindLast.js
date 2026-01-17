@@ -11,8 +11,11 @@
     {id: 9, name: "Sohan Kumar", age: 15},
     {id: 10, name: "Narendra Kumar", age: 2},
   ]
-  const resultIdx = user.findLastIndex((item) => item.age > 10); // findLastIndex: Return index value of matched condition from last. 
-  console.log(resultIdx); 
+  const resultIdx = user.findLastIn((item) => item.age > 10); // findLastIndex: Return index value of matched condition from last. 
+  console.log(resultIdx);
+  
+  // const resultIdx = user.findLastIndex((item) => item.age > 10); // findLastIndex: Return index value of matched condition from last. 
+  // console.log(resultIdx); 
   
   // const resultIdx = user.findIndex((item) => item.age > 10); // findIndex: Return index value of matched condition
   // console.log(resultIdx);
